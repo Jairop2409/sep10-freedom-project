@@ -1,5 +1,5 @@
-# Entry 2
-##### X/X/XX
+# Entry 2: Music
+##### 12/15/2023
 
 Text
 
