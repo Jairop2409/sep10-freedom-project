@@ -13,10 +13,22 @@ The tool I chose to use on my freedom project was Aframe because it had cool ani
   ### Sources
   - To learn Aframe and to practice it I am using [glitch](https://glitch.com/edit/#%2521%252Ffalse-seen-tumbleweed%253Fpath%253Dindex.html%253A26%253A0) to see the code for creating the shapes,colors ect. . To add, I am using [aframe website](https://glitch.com/edit/#%2521%252Ffalse-seen-tumbleweed%253Fpath%253Dindex.html%253A26%253A0) to learn the interface of element's
 
-  ## Engineering Design Process
- I am currently going into step 4 **planning  the promising solution** I decided how to engage people about innovations about music by having a readable and  informative website using `aframe` to make my wesbite better.
+## Engineering Design Process
+ I am currently going into step 4 **planning the promising solution** I decided how to engage people about innovations about music by having a readable and  informative website using `aframe` to make my wesbite better.
 
- 
+## Skill
+The two skills I have obtained was **Organization** and **Attention to detail**
+
+#### **Organization**
+- One way I have Obtained this skill is to organize your thoughts and try to practice your thoughts in code and see how your website/ The project you're making will turn out
+#### **Attention to detail**
+- One way I learned to pay attention to detail is when I code and I need to correctly put element's with their corresponding selector.
+
+### Summary
+I plan to learn more skills like **consideration** and **Embracing failure** in my project  because embracing and showing failiure is a part of learning
+
+
+
 
 [Previous](entry03.md) | [Next](entry05.md)
 
