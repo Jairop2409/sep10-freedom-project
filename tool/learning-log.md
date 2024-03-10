@@ -47,10 +47,64 @@ Is it possible to make an entity inside an entity code?> for example `a-circle` 
 ### Next steps
 * Try other components and their meaning and how I can use them on my fp(freedom) project
 
-X/X/XX:
+3/9/24:
 
-*
-*
+* **Watched 15 minutes about creating Geometry objects and changing colors,width,height ect on an object  [Youtube video](https://www.youtube.com/watch?v%253DnRK6-FKobis)**
+* read the documentation of Geometry(objects) on  the Aframe [page](https://aframe.io/docs/1.5.0/components/geometry.html)
+
+
+
+##### Things I changed using both the documentation and video
+* I changed the sky color to a crystal blue color. The code I used was
+` <a-sky color=#5CB3FF></a-sky> `.
+* I created a geometry object(ring) and I Made it havce a color of red and changed the `radius:inner` and `Radius:outter`.
+* The code I used was
+
+ `<a-ring geometry="primitive: ring; radiusInner: 4; radiusOuter: 10"
+          material="side: double" color="red"></a-ring>
+    `
+   ![Ring](Ring.png)
+
+#### Things I made
+* I changed the plane position to go inside the ring
+* The code I used for this was
+` <a-plane position="0 1-4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4"></a-plane>
+`
+* I modified the ring to have a positon and created 2 other rings. I made a ring with a blue color and another one with green. Finally I tested out the position and see if it lined up the way I wanted and it did.
+* The code I  used was
+
+`
+ <a-ring geometry="primitive: ring; radiusInner: 4; radiusOuter: 11"
+          material="side: double" color="Red" position="1 0.75 -0.045" ></a-ring>
+       <a-ring geometry="primitive: ring; radiusInner: 4; radiusOuter: 11"
+          material="side: double" color="Blue" position="1 0.75 -0.025"></a-ring>
+     <a-ring geometry="primitive: ring; radiusInner: 4; radiusOuter: 11"
+          material="side: double" color="green" position="1 0.75 -0.035"></a-ring>
+    `
+* Final product
+![Ringrainbow](Geometryrainbow.png)
+### Challenges
+The challenge I faced  was when  I placed an object because I had to make it the way I wanted. I wanted it to line up but whenever I created a new ring it Overlapsed with the first ring so I had to change the Position. After looking back at Aframe and the way I did it before, it helped me change where the ring went and how it was placed.
+### Questions
+How can I use a 360 image as an image? like for example if I wanted the `<a-sky>` to be a picture instead of a color
+
+## What I plan to do next
+* _Study one more component_
+
+x/x/xx
+<!--
+* Links you used today (websites, videos, etc)
+* Things you tried, progress you made, etc
+* Challenges, a-ha moments, etc
+* Questions you still have
+* What you're going to try next
+
+
+-->
+
+
+
+x/x/xx
 <!--
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
