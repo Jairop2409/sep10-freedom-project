@@ -57,7 +57,7 @@ Is it possible to make an entity inside an entity code?> for example `a-circle` 
 ##### Things I changed using both the documentation and video
 * I changed the sky color to a crystal blue color. The code I used was
 ` <a-sky color=#5CB3FF></a-sky> `.
-* I created a geometry object(ring) and I Made it havce a color of red and changed the `radius:inner` and `Radius:outter`.
+* I created a geometry object(ring) and I Made it have a color of red and changed the `radius:inner` and `Radius:outter`.
 * The code I used was
 
  `<a-ring geometry="primitive: ring; radiusInner: 4; radiusOuter: 10"
@@ -70,7 +70,7 @@ Is it possible to make an entity inside an entity code?> for example `a-circle` 
 * The code I used for this was
 ` <a-plane position="0 1-4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4"></a-plane>
 `
-* I modified the ring to have a positon and created 2 other rings. I made a ring with a blue color and another one with green. Finally I tested out the position and see if it lined up the way I wanted and it did.
+* I modified the ring to have a position and created 2 other rings. I made a ring with a blue color and another one with green. Finally, I tested out the position and see if it lined up the way I wanted and it did.
 * The code I  used was
 
 `
