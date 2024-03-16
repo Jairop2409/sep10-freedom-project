@@ -90,8 +90,8 @@ How can I use a 360 image as an image? like for example if I wanted the `<a-sky>
 
 ## What I plan to do next
 * _Study one more component_
-
-3/16/24
+___
+3/16/24:
 
 Some things I did to practice the components of aframe were
 *  practiced what I learned for the past weeks and tried to make something using what I learned
