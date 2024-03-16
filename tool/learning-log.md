@@ -95,10 +95,10 @@ How can I use a 360 image as an image? like for example if I wanted the `<a-sky>
 
 Some things I did to practice the components of aframe were
 *  practiced what I learned for the past weeks and tried to make something using what I learned
-* The new component I learned was light and I reead a documetation about it [light](https://aframe.io/docs/1.5.0/components/light.html#adding-real-time-shadows)
+* The new component I learned was light and I read a documetation about it [light](https://aframe.io/docs/1.5.0/components/light.html#adding-real-time-shadows)
 
-##### Things I made  from reading the docuemation
-*  I tried to make a `point` light which is basiaclly a light that affect materials based on where they are located in
+##### Things I made  from reading the documentation
+*  I tried to make a `point` light which is basically a light that affects materials based on where they are located in
 * The  code I used for this was
 ```
   <a-entity light="type: point; intensity: 5  distance: 0; decay: 0"
@@ -116,7 +116,7 @@ and I added a shadow to the image to make the scene less dark
 ![image](light.png)
 
 ## Practicing what I learned
- Some things I made was
+ Some things I made were
 *  a geometry shape called "octahedron"
    * The code I used for this was ` <a-octahedron position="-2.5 0.5 0.5" color="red" radius="0.45"></a-octahedron>`
 *  made a triangle
@@ -133,18 +133,17 @@ Made three triangles facing each other
 ```
       <a-entity geometry="primitive: torus; radius: 5; radiusTubular: .5; arc: 360" color="Red" position="0.025 0.75 -0.045"></a-entity>
 ```
-The things I changed was made the raduis bigger(the inside)
+The things I changed was made the radius bigger(the inside)
 
 
 ### Final product
 ![geometry](Practice.png)
 #### Challenges
-One challenge I faced was the light part because It showed a shadow on top of the three shapes and when I added the shadow code, it no longer had a shadow. Another challenge I faced was deciding which componenet to do because some require an animation and I haven't done that yet.
+One challenge I faced was the light part because It showed a shadow on top of the three shapes and when I added the shadow code, it no longer had a shadow. Another challenge I faced was deciding which component to do because some require animation and I haven't done that yet.
 #### Questions
-* Is there a way to make my shape's I made have a color because there was an error. One example is ` <a-octahedron`
+* Is there a way to make my shape's have a color because there was an error. One example is ` <a-octahedron`
 ### *what I plan to do next*
 * Learning animation and cursor
-
 x/x/xx
 <!--
 * Links you used today (websites, videos, etc)
