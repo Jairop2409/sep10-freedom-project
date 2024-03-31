@@ -187,7 +187,60 @@ Before I explain what I changed,made and my progress , we need to know what a cu
 * What is a Cursor?
    * A cursor is a hover component that has  a camera built to see  control base intercations.
 * What is a raycaster?
-   * A raycaster is checking for events
+   * A raycaster is checking for events and the intersections that cross it
+#### Things I changed
+* One thing I changed was the color of the cursor  and  Positoning the cursor to the raycaster
+    * The code I used was
+    `
+<a-entity camera look-controls>
+  <a-entity cursor="fuse: true; fuseTimeout: 500"
+            position="0 0 -1"
+            geometry="primitive: ring; radiusInner: 0.02; radiusOuter: 0.03"
+            material="color: red; shader: flat">
+  </a-entity>
+  `
+
+as  You see `material="color: red; ` means the camera cursor turns red.
+
+* Another thing I changed was making the raycastor have an animation
+     * The code for making a raycaster
+    `<a-entity id="player" >
+  <a-entity collider-check raycaster="objects: .collidable; showLine:true;" position="1 1 1"></a-entity>
+</a-entity>
+`
+
+This made a raycastor and what I changed is making it move as an animation using the code
+* `<a-entity class="collidable" geometry="primitive: box"  position="0 1 -3"  animation="property: position; to: 1 8 -10; dur: 2000; easing: linear; loop: true" color="blue"></a-entity>
+`
+##### Takeaways for cursor
+Using what I learned from animations I added onto with cursor and raycaster's
+##### Final product
+![hey](Cursor.png)
+
+#### Things I made
+* I made a red cylinder in raycastor
+* I made another animated box
+     * Code used
+     `<a-entity class="collidable" geometry="primitive: box"  position="3 1 -3"  animation="property: position; to: 1 0 -5; dur: 1000; easing: linear; loop: true" color="blue"></a-entity>
+`
+
+My final product
+![final product](Finalproduct.png)
+
+### Challenges
+* A challenge I faced was doing cursors because it was hard to understand where everything had to be positioned because when adding the raycastor it caused the camera to face the raycastor
+
+### Questions
+* How can I prepare for next week?
+
+## My plans for the upcoming weeks
+* Next week-  building a basic scene
+* In two weeks...
+     * Building a 360
+    * Extension-
+        * Practicing everything I learned in my ide instead of js bin
+* tbd
+___
 <!--
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
