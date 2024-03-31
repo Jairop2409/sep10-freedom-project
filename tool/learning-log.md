@@ -183,13 +183,13 @@ ___
 3/31/24
 * Learned how to use cursor in the aframe [page](https://aframe.io/docs/1.5.0/components/cursor.html) and I used the raycaster [page](https://aframe.io/docs/1.5.0/components/raycaster.html) to see the cursor in actions.
 
-Before I explain what I changed,made and my progress , we need to know what a cursor is and a raycaster .
+Before I explain what I changed, and made and my progress, we need to know what a cursor is and a raycaster.
 * What is a Cursor?
-   * A cursor is a hover component that has  a camera built to see  control base intercations.
+   * A cursor is a hover component that has  a camera built to see control base interactions.
 * What is a raycaster?
    * A raycaster is checking for events and the intersections that cross it
 #### Things I changed
-* One thing I changed was the color of the cursor  and  Positoning the cursor to the raycaster
+* One thing I changed was the color of the cursor  and Positioning the cursor to the raycaster
     * The code I used was
     `
 <a-entity camera look-controls>
@@ -200,7 +200,7 @@ Before I explain what I changed,made and my progress , we need to know what a cu
   </a-entity>
   `
 
-as  You see `material="color: red; ` means the camera cursor turns red.
+As you see `material="color: red; ` means the camera cursor turns red.
 
 * Another thing I changed was making the raycastor have an animation
      * The code for making a raycaster
@@ -228,7 +228,7 @@ My final product
 ![final product](Finalproduct.png)
 
 ### Challenges
-* A challenge I faced was doing cursors because it was hard to understand where everything had to be positioned because when adding the raycastor it caused the camera to face the raycastor
+* A challenge I faced was doing cursors because it was hard to understand where everything had to be positioned because when adding the raycaster it caused the camera to face the raycaster
 
 ### Questions
 * How can I prepare for next week?
