@@ -147,11 +147,11 @@ One challenge I faced was the light part because It showed a shadow on top of th
 ___
 3/31/24:
 * Watched a 15 minute video on  learning animation **[youtube aframe video](https://www.youtube.com/watch?v=p3mNNZ356Ko)**
-    * Website from video [Animation](https://matthewlein.com/tools/ceaser)
+    * Website from Video [Animation](https://matthewlein.com/tools/ceaser)
 *  read the documentation of Animation on  the Aframe [page](https://aframe.io/docs/1.5.0/components/animation.html)
 
-##### Things I changed using the video and the docuementation
-* When I read the animation page I read that  animations are a component where you change a objects value and their apperance
+##### Things I changed using the video and the documentation
+* When I read the animation page I read that  animations are a component where you change a object value and their appearance
     * what  I changed was the position of where the shape started
 ![Ringrainbow](Animation.png)
 * The code I used was  `
@@ -161,7 +161,7 @@ ___
 #### What I learned from the video
 - setting an attribute to an animation can set the animation to autoplay
 
-#### What I made and how I used  Previous things I learned to add onto what I learned
+#### What I made and how I used  Previous things I learned to add to what I learned
 * I made   1 box and another animated box
   * The code I used for making another animated box was
 
@@ -180,14 +180,14 @@ ___
 ### What I plan to do next
 *  Learn cursor and/ or  camera
 ___
-* Links you used today (websites, videos, etc)
-* Things you tried, progress you made, etc
-* Challenges, a-ha moments, etc
-* Questions you still have
-* What you're going to try next
--->
+3/31/24
+* Learned how to use cursor in the aframe [page](https://aframe.io/docs/1.5.0/components/cursor.html) and I used the raycaster [page](https://aframe.io/docs/1.5.0/components/raycaster.html) to see the cursor in actions.
 
-x/x/xx
+Before I explain what I changed,made and my progress , we need to know what a cursor is and a raycaster .
+* What is a Cursor?
+   * A cursor is a hover component that has  a camera built to see  control base intercations.
+* What is a raycaster?
+   * A raycaster is checking for events
 <!--
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
