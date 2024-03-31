@@ -143,9 +143,43 @@ One challenge I faced was the light part because It showed a shadow on top of th
 #### Questions
 * Is there a way to make my shape's have a color because there was an error. One example is ` <a-octahedron`
 ### *what I plan to do next*
-* Learning animation and cursor
-x/x/xx
-<!--
+* Learning animation and/or  cursor
+___
+3/31/24:
+* Watched a 15 minute video on  learning animation **[youtube aframe video](https://www.youtube.com/watch?v=p3mNNZ356Ko)**
+    * Website from video [Animation](https://matthewlein.com/tools/ceaser)
+*  read the documentation of Animation on  the Aframe [page](https://aframe.io/docs/1.5.0/components/animation.html)
+
+##### Things I changed using the video and the docuementation
+* When I read the animation page I read that  animations are a component where you change a objects value and their apperance
+    * what  I changed was the position of where the shape started
+![Ringrainbow](Animation.png)
+* The code I used was  `
+   <a-box position="-4 1.6 -5" animation="property: position; to: 1 8 -10; dur: 2000; easing: linear; loop: true" color="tomato"></a-box>
+   `
+
+#### What I learned from the video
+- setting an attribute to an animation can set the animation to autoplay
+
+#### What I made and how I used  Previous things I learned to add onto what I learned
+* I made   1 box and another animated box
+  * The code I used for making another animated box was
+
+   `<a-box position="1 0.75 -3" animation="property: position; to: 1 8 -10; dur: 2000; easing: linear; loop: true" color="blue"></a-box>
+   `
+   * The code I used for making a box was
+   ` <a-entity geometry="primitive: box;   width: 1; height: 1; depth: 1"; position=" 1 1.75 -3"></a-entity>`
+#### Final product
+![box](box.png)
+
+### Challenges
+*  One challenge I faced was understanding how animations worked because I found the  different types of easing hard because they animate different things
+      * Example: scaling
+### Questions
+* Is there a way to scale while an object is in motion?
+### What I plan to do next
+*  Learn cursor and/ or  camera
+___
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
 * Challenges, a-ha moments, etc
