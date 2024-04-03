@@ -9,7 +9,7 @@ Tool: **Aframe**
 * read the documentation of positioning on  the Aframe [page](https://aframe.io/docs/1.5.0/components/position.html)
  ##### Things I changed  using the video
 - I used aspect ratio to change the width, height, and depth of a shape, I made the `height="0.1"`, `Width="2"` `position=" 1, 0.75,-2`
- ![practice](<Aspectratio .png>)
+ ![practice](<images/Aspectratio .png>)
  #### Things made
  - Using the aframe page and using the code I made a cylinder stack upon the first cylinder, I changed the color and I created a cone on top of both cylinders
  * The code That I used for creating a cone was
@@ -34,7 +34,7 @@ Tool: **Aframe**
     depth="1.2"
      ></a-cylinder>
 #### End product
-![What I made](<Product.png>)
+![What I made](<images/Product.png>)
 
 ### Challenges
 * The challenge I faced when trying to make new shapes using positions, width, and height was making sure it was the way I wanted and making sure the shapes/Entity had the right position( on top of the cylinder/s) I found making everything the way I wanted difficult but using the video tutorial and the Aframe webpage I was able to found out what was x,y and z in the
@@ -63,7 +63,7 @@ Is it possible to make an entity inside an entity code?> for example `a-circle` 
  `<a-ring geometry="primitive: ring; radiusInner: 4; radiusOuter: 10"
           material="side: double" color="red"></a-ring>
     `
-   ![Ring](Ring.png)
+   ![Ring](images/Ring.png)
 
 #### Things I made
 * I changed the plane position to go inside the ring
@@ -82,7 +82,7 @@ Is it possible to make an entity inside an entity code?> for example `a-circle` 
           material="side: double" color="green" position="1 0.75 -0.035"></a-ring>
     `
 * Final product
-![Ringrainbow](Geometryrainbow.png)
+![Ringrainbow](images/Geometryrainbow.png)
 ### Challenges
 The challenge I faced  was when  I placed an object because I had to make it the way I wanted. I wanted it to line up but whenever I created a new ring it Overlapsed with the first ring so I had to change the Position. After looking back at Aframe and the way I did it before, it helped me change where the ring went and how it was placed.
 ### Questions
@@ -113,7 +113,7 @@ and I added a shadow to the image to make the scene less dark
 </a-scene>
 ```
 ### end product
-![image](light.png)
+![image](images/light.png)
 
 ## Practicing what I learned
  Some things I made were
@@ -137,7 +137,7 @@ The things I changed was made the radius bigger(the inside)
 
 
 ### Final product
-![geometry](Practice.png)
+![geometry](images/Practice.png)
 #### Challenges
 One challenge I faced was the light part because It showed a shadow on top of the three shapes and when I added the shadow code, it no longer had a shadow. Another challenge I faced was deciding which component to do because some require animation and I haven't done that yet.
 #### Questions
@@ -153,7 +153,7 @@ ___
 ##### Things I changed using the video and the documentation
 * When I read the animation page I read that  animations are a component where you change a object value and their appearance
     * what  I changed was the position of where the shape started
-![Ringrainbow](Animation.png)
+![Ringrainbow](images/Animation.png)
 * The code I used was  `
    <a-box position="-4 1.6 -5" animation="property: position; to: 1 8 -10; dur: 2000; easing: linear; loop: true" color="tomato"></a-box>
    `
@@ -170,7 +170,7 @@ ___
    * The code I used for making a box was
    ` <a-entity geometry="primitive: box;   width: 1; height: 1; depth: 1"; position=" 1 1.75 -3"></a-entity>`
 #### Final product
-![box](box.png)
+![box](images/box.png)
 
 ### Challenges
 *  One challenge I faced was understanding how animations worked because I found the  different types of easing hard because they animate different things
@@ -215,7 +215,7 @@ This made a raycastor and what I changed is making it move as an animation using
 ##### Takeaways for cursor
 Using what I learned from animations I added onto with cursor and raycaster's
 ##### Final product
-![hey](Cursor.png)
+![hey](images/Cursor.png)
 
 #### Things I made
 * I made a red cylinder in raycastor
@@ -225,7 +225,7 @@ Using what I learned from animations I added onto with cursor and raycaster's
 `
 
 My final product
-![final product](Finalproduct.png)
+![final product](images/Finalproduct.png)
 
 ### Challenges
 * A challenge I faced was doing cursors because it was hard to understand where everything had to be positioned because when adding the raycaster it caused the camera to face the raycaster
