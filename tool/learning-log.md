@@ -241,19 +241,93 @@ My final product
         * Practicing everything I learned in my ide instead of js bin
 * tbd
 ___
-<!--
-* Links you used today (websites, videos, etc)
-* Things you tried, progress you made, etc
-* Challenges, a-ha moments, etc
-* Questions you still have
-* What you're going to try next
--->
 
-x/x/xx
-<!--
-* Links you used today (websites, videos, etc)
-* Things you tried, progress you made, etc
-* Challenges, a-ha moments, etc
-* Questions you still have
-* What you're going to try next
--->
+
+4/10/24
+* Read a Docuementation about [sound](https://aframe.io/docs/1.5.0/components/sound.html) and practiced three days in my IDE to use what I learned about Animation and their easing's to expand my animations.
+
+#### Things  I changed
+* Sound-
+   * When I read the documentation from sound I learned a couple things
+       * One thing I learned is in order to use this component you must create your own audio and sound and upload it.
+       * Another way is if you look for audio and upload it by donwolading the sound
+   * The code I used was
+
+  <a-scene>
+
+        <a-assets>
+            <audio id="river" src="river-6.mp3" preload="auto"></audio>
+          </a-assets>
+
+          <a-entity sound="src: #river"></a-entity>
+
+
+        <a-box position="-1 0.5 -3" rotation="0 45 0" color="#4CC3D9"></a-box>
+        <a-sphere position="0 1.25 -5" radius="1.25" color="#EF2D5E"></a-sphere>
+        <a-cylinder
+          position="1 0.75 -3"
+          radius="0.5"
+          height="1.5"
+          color="#FFC65D"
+          id="river"
+         sound="src https://www.soundjay.com/nature/sounds(river-6.mp3); autoplay: true;">
+        </a-cylinder>
+         <a-plane
+          position="0 0 -4"
+          rotation="-90 0 0"
+          width="4"
+          height="4"
+          color="#7BC8A4"
+        ></a-plane>
+        <a-box position="1 0.75 -3" scale="1.5 1 2" animation="property: position; to: -3 8 -10; dur: 1100; easing: linear; loop: true" color="blue"></a-box>
+        <a-box position="1 0.75 -3" animation="property: position; to: 1 8 -10; dur: 1000; easing: linear; loop: true" color="red"></a-box>
+        <a-entity geometry="primitive: box;   width: 1; height: 1; depth: 1"; position=" 1 1.75 -3"></a-entity>
+        </a-sky>
+        </a-scene>
+* Some things I changed was the music and  made  the music go in the cylinder
+
+##### Things I  made
+* Animation
+     * One thing I made was that I made a sphere and made it orbit around a  box.
+* The code I used for this was
+`<a-entity rotation="0 0 0" animation="property: rotation; to: 0 360  0; loop: true; dur: 1000">
+    <a-sphere position="1 2.5 6" color="mediumseagreen"></a-sphere>
+`
+* Using this code it made a sphere go clockwise and  I gave it a color of green
+    * Another thing I made was another sphere but I made  it go faster than ther green sphere
+* The code I used for the second sphere
+`
+<a-entity rotation="1 2.5 6" animation="property: rotation; to:  -360 -0 0; loop: true; dur: 100">
+        <a-sphere position="5 0 0" color="blue"></a-sphere>
+`
+##### Image of final product
+![product](images/tinkering.png)
+
+##### Code of final product
+*
+         <html>
+         <head>
+               <script src="https://aframe.io/releases/1.5.0/aframe.min.js"></script>
+        </head>
+               <body>
+                      <a-scene>
+                                 <a-box color="blue" rotation="-0 45 45" scale=" 4 4 4"  position="1 2.5  0"></a-box>
+                                <a-plane rotation="-90 1.5.20" width="10" height="10" color="red"></a-plane>
+
+                                <a-entity rotation="0 0 0" animation="property: rotation; to: 0 360  0; loop: true; dur: 1000">
+                               <a-sphere position="1 2.5 6" color="mediumseagreen"></a-sphere>
+                               <a-entity rotation="1 2.5 6" animation="property: rotation; to:  -360 -0 0; loop: true; dur: 100">
+        <a-sphere position="5 0 0" color="blue"></a-sphere>
+
+          </a-scene>
+         </a-scene>
+
+      </body>
+    </html>
+#### Challenges
+* One challenge was picking an audio because I didn't know how to insert it into my IDE but then  I found out that I had to downold it and just upload it
+
+#### Questions
+* How do I used animation in my Freedom project
+
+_____
