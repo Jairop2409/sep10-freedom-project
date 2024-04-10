@@ -244,13 +244,13 @@ ___
 
 
 4/10/24
-* Read a Docuementation about [sound](https://aframe.io/docs/1.5.0/components/sound.html) and practiced three days in my IDE to use what I learned about Animation and their easing's to expand my animations.
+* Read a Documentation about [sound](https://aframe.io/docs/1.5.0/components/sound.html) and practiced for three days in my IDE to use what I learned about Animation and their easing to expand my animations.
 
 #### Things  I changed
 * Sound-
    * When I read the documentation from sound I learned a couple things
        * One thing I learned is in order to use this component you must create your own audio and sound and upload it.
-       * Another way is if you look for audio and upload it by donwolading the sound
+       * Another way is if you look for audio and upload it by downloading the sound
    * The code I used was
 
   <a-scene>
@@ -294,7 +294,7 @@ ___
     <a-sphere position="1 2.5 6" color="mediumseagreen"></a-sphere>
 `
 * Using this code it made a sphere go clockwise and  I gave it a color of green
-    * Another thing I made was another sphere but I made  it go faster than ther green sphere
+    * Another thing I made was another sphere but I made  it go faster than the green sphere
 * The code I used for the second sphere
 `
 <a-entity rotation="1 2.5 6" animation="property: rotation; to:  -360 -0 0; loop: true; dur: 100">
@@ -325,9 +325,11 @@ ___
       </body>
     </html>
 #### Challenges
-* One challenge was picking an audio because I didn't know how to insert it into my IDE but then  I found out that I had to downold it and just upload it
+* One challenge was picking an audio because I didn't know how to insert it into my IDE but then  I found out that I had to download it and just upload it
 
 #### Questions
-* How do I used animation in my Freedom project
+* How do I use animation in my Freedom project
 
 _____
+
+
