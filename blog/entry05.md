@@ -2,10 +2,10 @@
 ##### 4/14/24
 
 ## Content
-Some things I learned about using aframe was the animations, sound components, differemt shapes, cursor's ect... . For instance, When I used the animation component's I was able to decide how to use it(different easing's). The page about animation on [aframe](https://aframe.io/docs/1.5.0/components/animation.html) really helped me out and a video on youtube. In general, videos on youtube and the offical website helped me out because some things were tricky like the animation component. To sum up, using aframe taught me how to make 3d and animated objects and make animations which peaked my intrest.
+Some things I learned about using aframe was the animations, sound components, different shapes, cursor's ect... . For instance, When I used the animation component's I was able to decide how to use it(different easing's). The page about animation on [aframe](https://aframe.io/docs/1.5.0/components/animation.html) really helped me out and a video on youtube. In general, videos on YouTube and the official website helped me out because some things were tricky like the animation component. To sum up, using aframe taught me how to make 3d and animated objects and make animations which piqued my interest.
 
 ### Using the Animation component-
-*  One thing I **changed** when using animation was the positoning of the object and how  I wanted it to be animated(Translating a box) as well as the color.
+*  One thing I **changed** when using animation was the position of the object and how  I wanted it to be animated(Translating a box) as well as the color.
 * The code I used was
 `
  <a-box position="-4 1.6 -5" animation="property: position; to: 1 8 -10; dur: 2000; easing: linear; loop: true" color="tomato"></a-box>
@@ -23,7 +23,7 @@ Some things I learned about using aframe was the animations, sound components, d
 ### Using the cursor component
 Before I explain what I changed, and made and my progress, we need to know what a cursor is and a raycaster.
 * What is a Cursor?
-   * A cursor is a hover component that has  a camera built to see control base interactions.
+   * A cursor is a hover component that has a camera built to see control base interactions.
 * What is a raycaster?
    * A raycaster is checking for events and the intersections that cross it
 #### Things I changed
@@ -40,7 +40,7 @@ Before I explain what I changed, and made and my progress, we need to know what 
 
 As you see `material="color: red; ` means the camera cursor turns red.
 
-* Another thing I changed was making the raycastor have an animation
+* Another thing I changed was making the raycaster have an animation
      * The code for making a raycaster
     `<a-entity id="player" >
   <a-entity collider-check raycaster="objects: .collidable; showLine:true;" position="1 1 1"></a-entity>
@@ -68,16 +68,16 @@ My final product
 To learn animation I used  the [aframe page ](https://aframe.io/docs/1.5.0/components/animation.html) about animation to make different  easings and animatins like translating a box or going around a certain object.
 
 ## Engineering Design Process
-As of right now  I am in step 4  **planning the promising solution** where I have decided how to use aframe  in my website going into step 5 **Creating a protype** in this case a website that informs people  about Music in technoilogy and using aframe to exopand on this idea
+As of right now  I am in step 4  **planning the promising solution** where I have decided how to use aframe  in my website going into step 5 **Creating a prototype** in this case a website that informs people  about Music in technology and using aframe to expand on this idea
 
 ## Skill
- The two skills I learned while using aframe was **Embracing failure** and **how to  learm**
+ The two skills I learned while using aframe was **Embracing failure** and **how to learn**
 
  #### Embracing failure
- - One way  I have used this skill is when I used the sound component and was struggling how to import a sound but as I learned more I was able to learm from this error and problem
+ - One way  I have used this skill is when I used the sound component and was struggling with how to import a sound but as I learned more I was able to learn from this error and problem
 
  #### How to learn
- - One way I have used this skill is when  I had to use resources and research to better understand afame and it's components
+ - One way I have used this skill is when  I had to use resources and research to better understand afame and its components
 
  ### Summary/My next steps
  I plan on making a website using the sound component.
@@ -85,3 +85,5 @@ As of right now  I am in step 4  **planning the promising solution** where I hav
 [Previous](entry04.md) | [Next](entry06.md)
 
 [Home](../README.md)
+
+
