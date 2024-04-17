@@ -1,14 +1,16 @@
 # Plan
 
 ## Wireframes
-* [Mobile]()
-* [Desktop]()
+* ![Mobile](Mobilefirst.png)
+* [Desktop](https://wireframe.cc/nRjmyh)
 
 ## Colors
-* `#ABC123`
+* `#ff781f(a light orange)`
+* Black and white
+* dark blue/light blue
 
 ## Fonts
-* [Text](URL)
+* [Oswald](https://fonts.google.com/specimen/Oswald)
 
 ## Timeline
 
