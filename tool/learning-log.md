@@ -145,7 +145,7 @@ One challenge I faced was the light part because It showed a shadow on top of th
 ### *what I plan to do next*
 * Learning animation and/or  cursor
 ___
-3/31/24:
+3/22/24:
 * Watched a 15 minute video on  learning animation **[youtube aframe video](https://www.youtube.com/watch?v=p3mNNZ356Ko)**
     * Website from Video [Animation](https://matthewlein.com/tools/ceaser)
 *  read the documentation of Animation on  the Aframe [page](https://aframe.io/docs/1.5.0/components/animation.html)
