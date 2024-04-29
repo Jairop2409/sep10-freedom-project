@@ -40,4 +40,4 @@
 
 *  Add fonts
 * Add animation using Aframe
-* add images and colors 
+* add images and colors
