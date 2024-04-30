@@ -13,6 +13,32 @@
  .navbar-expand-lg{
   background-color:grey;
   }
+  .paragraph{
+    margin: 20px;
+    padding:40px;
+    font-size: 16px;
+    text-align:center;
+    border:16px solid black;
+    background-color:blue;
+    color:white;
+    font-size:30px;
+  }
+  .card-body{
+   border:16px solid grey;
+   background-color: green;
+   font-size: 16px;
+   text-align:center;
+  }
+  .card-title{
+    color: black;
+  }
+  .card-subtitle{
+    color:#a61c20;
+  }
+  .card-text{
+    color: black;
+    font-size: 18px;
+  }
 
   root {
     --bs-blue: #0d6efd;
