@@ -1,7 +1,4 @@
-.container-fluid {
-display: flex;
-flex-wrap: inherit;
-align-items: center;
-justify-content: space-between;
-background-color: grey;
+.navbar-expand-lg{
+background-color:red;
 }
+
