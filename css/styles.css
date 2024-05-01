@@ -114,6 +114,17 @@ Text-align: center;
   font-style: normal;
 
 }
+.paragraph2{
+  text-align:center;
+  margin-right: 60%;
+  margin: 40px;
+  padding:150px;
+  font-size: 16px;
+  border:8px solid red;
+  background-color:pink;
+  color:white;
+  font-size:30px;
+}
   root {
     --bs-blue: #0d6efd;
     --bs-indigo: #6610f2;
