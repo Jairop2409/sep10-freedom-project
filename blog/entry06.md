@@ -1,5 +1,6 @@
-# Entry 6
-##### X/X/XX
+# Entry 6 : Music
+##### 5/4/24
+## Context
 
 Text
 
