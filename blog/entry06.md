@@ -81,9 +81,19 @@ The sources I used when doing my freedom project are the following
 + the sources used for researching music innovations
 
 ## Engineering Design Process
-As of right now I am on step 5  `**Create a prototype**` where I have made  my website but I still have  to go beyond mvp and improve my website to be free of errors. The next step is step 6 `**Test and evaluate the prototype**`  AKA the `beyond mvp` 
+As of right now I am on step 5  `**Create a prototype**` where I have made  my website but I still have  to go beyond mvp and improve my website to be free of errors. The next step is step 6 `**Test and evaluate the prototype**`  AKA the `beyond mvp`
 
+## Skills
+I have learned two skills while making my freedom project which was **creativity** and **problem decomposition**
 
+### Creativity
+- One way I have inherited this skill has been through this whole freedom project where I had to think of different ways to get to my  solutions  by using  the  websites, videos and coding to get the product I wanted.
+
+### Problem Decomposition
+- One way I have obtained this skill was through my planning and  using a timeline to divide the tasks I needed done each day so it doesn't overwhelm me.
+
+### My next steps
+BEYOND MVP 
 
 [Previous](entry05.md) | [Next](entry07.md)
 
