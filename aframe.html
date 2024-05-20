@@ -5,16 +5,48 @@
   <body>
     <a-scene>
 
-        <a-box color="blue" rotation="-0 45 45" scale=" 4 4 4"  position="1 2.5  0"></a-box>
-   <a-plane rotation="-90 1.5.20" width="10" height="10" color="red"></a-plane>
-<!-- Animation -->
+<!-- Music -->
+   <a-plane rotation="-90 1.5.20" width="50" height="50" color="red"></a-plane>
+   <a-sphere position="0.7  1.2 -3" color="black"></a-sphere>
+   <a-entity geometry="primitive: plane; height: 4; width: 4" material="side: double" rotation="0 90 90" position=" 0.2  4 -3 "></a-entity>
+   <a-entity geometry="primitive: plane; height: 4; width: 4" material="side: double" rotation="-90 45 45" position=" -1.7  6 -3 "></a-entity>
+   <a-plane rotation="-90 1.5.20" width="5" height="5" color="red"></a-plane>
+   <a-sphere position="-4  1.2 -3" color="black"></a-sphere>
+   <a-entity geometry="primitive: plane; height: 4; width: 4" material="side: double" rotation="0 90 90" position=" -3.7  4 -3 "></a-entity>
+   <!-- text -->
+   <a-entity
+  geometry="primitive: plane; width: 5; height: 5 position="
+  material="color: blue"
+  Position=" 3  2 0"
+  text="value: This scene displays music symbols  and the spheres between them display the connection  using  geometry shapes. "></a-entity>
 
-<a-entity rotation="0 0 0" animation="property: rotation; to: 0 360  0; loop: true; dur: 1000">
-    <a-sphere position="1 2.5 6" color="mediumseagreen"></a-sphere>
-    <a-entity rotation="1 2.5 6" animation="property: rotation; to:  -360 -0 0; loop: true; dur: 100">
-        <a-sphere position="5 0 0" color="blue"></a-sphere>
-        <a-entity id="river" geometry="primitive: plane" material="color: blue"
-        position="1 2.5 6" sound="src: url(river.mp3); autoplay: true"></a-entity>
+  <a-entity
+  geometry="primitive: plane; width: 3; height: 3 position="
+  material="color: blue"
+  Position=" -22  2 0"
+  text="value: What my friend is listening to  "></a-entity>
+
+
+  <a-entity
+  geometry="primitive: plane; width: 3; height: 3 position="
+  material="color: blue"
+  Position=" -4  2 0"
+  text="value: What i'm listeing to  "></a-entity>
+  <!-- display of connection -->
+  <a-sphere position="-9 1.2 -3" color="white"></a-sphere>
+  <a-sphere position="-11  1.2 -3" color="white"></a-sphere>
+  <a-sphere position="-13 1.2 -3" color="white"></a-sphere>
+  <!-- Music part 2( position=x,y,z where x is from left to right and y is from up and down) -->
+  <a-sphere position="-22.5 1.2 -3" color="black"></a-sphere>
+  <a-entity geometry="primitive: plane; height: 4; width: 4" material="side: double" rotation="0 90 90" position=" -22  4 -3 "></a-entity>
+  <a-entity geometry="primitive: plane; height: 4; width: 4" material="side: double" rotation="-90 45 45" position=" -20  6 -3 "></a-entity>
+  <a-entity geometry="primitive: plane; height: 4; width: 4" material="side: double" rotation="0 90 90" position=" -18 4 -3 "></a-entity>
+  <a-sphere position="-17.5 1.2 -3" color="black"></a-sphere>
+<!-- Animation -->
+  <a-entity rotation="0 0 0" animation="property: rotation; to: 0  360  0; loop: true; dur: 1000">
+    <a-sphere position="-24 6  -3" color="mediumseagreen"></a-sphere>
+    <a-entity rotation=" 0  0  0" animation="property: rotation; to:  0 360  0; loop: true; dur: 1000">
+      <a-sphere position="0.7  6  -3" color="blue"></a-sphere>
     </a-scene>
 
   </body>
