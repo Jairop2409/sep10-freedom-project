@@ -1,5 +1,7 @@
-# Entry 7
-##### X/X/XX
+# Entry 7: Music 
+##### 6/11/24
+
+##
 
 Text
 
